@@ -5,7 +5,7 @@ import plotly.express as px
 st.set_page_config(page_title="Fashion Analytics", layout="wide")
 
 # Загрузка данных
-file_path = r"C:\Users\User\Desktop\fashion_analysis\fashion_boutique_dataset_CLEAN.csv"
+file_path = "fashion_boutique_dataset_CLEAN.csv"
 try:
     df = pd.read_csv(file_path)
 except Exception as e:
